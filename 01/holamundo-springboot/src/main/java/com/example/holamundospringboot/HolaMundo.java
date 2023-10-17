@@ -21,7 +21,12 @@ public class HolaMundo {
 
     }
 
+  @GetMapping("/holamundoOtro")
+  @ResponseBody
+  public String showMessageOtro(){
+    return "HolaMundo en Spring Otro";
 
+  }
 
 
 
